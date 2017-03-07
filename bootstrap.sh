@@ -1,7 +1,7 @@
 #!/bin/bash
 
 yum groupinstall "Development Tools" -y
-yum install python-devel openssl-devel git -y
+yum install python-devel openssl-devel git libffi-devel -y
 
 cd /tmp
 curl -O https://bootstrap.pypa.io/get-pip.py
